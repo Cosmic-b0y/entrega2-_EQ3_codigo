@@ -1,0 +1,1116 @@
+{
+  "semilla": 2026,
+  "huellas_sha256": {
+    "pruebas_definidas.json": "c13987850e583a86fd7734d5ba20f5bd464abb1d8f7f4ced894c21848d876084",
+    "casos_externos_redactados.json": "a3c9d2d193eae056c73ad31899dde7cac2e6e0af55af2fb9711531f163cb0205",
+    "reportes_simulados.csv": "1e2d8483a363084d96e0691ad9cc5cf7b305832ddd68ff3089dd9dbb44d3785c"
+  },
+  "datos": {
+    "n_total": 1400,
+    "n_entrenamiento": 1052,
+    "n_prueba": 348,
+    "n_externos": 63,
+    "plantillas_entrenamiento": [
+      "T01",
+      "T02",
+      "T04",
+      "T06",
+      "T07",
+      "T08",
+      "T09",
+      "T11",
+      "T12",
+      "T14",
+      "T15",
+      "T16"
+    ],
+    "plantillas_prueba": [
+      "T03",
+      "T05",
+      "T10",
+      "T13"
+    ],
+    "por_categoria": {
+      "ELECTRICO": 208,
+      "HUMEDAD": 193,
+      "MOBILIARIO": 197,
+      "MUROS": 201,
+      "PISOS": 202,
+      "PUERTAS": 199,
+      "SANITARIO": 200
+    },
+    "por_prioridad_ref": {
+      "Baja": 134,
+      "Media": 603,
+      "Alta": 480,
+      "Inmediata": 183
+    },
+    "por_prioridad_ref_prueba": {
+      "Baja": 38,
+      "Media": 148,
+      "Alta": 118,
+      "Inmediata": 44
+    },
+    "por_prioridad_ref_externos": {
+      "Baja": 7,
+      "Media": 33,
+      "Alta": 12,
+      "Inmediata": 11
+    },
+    "criticos_total": 214,
+    "criticos_prueba": 53,
+    "criticos_externos": 15,
+    "zona_vacia": 72,
+    "activo_vacio": 477,
+    "textos_vagos": 49,
+    "duplicados": 84,
+    "reincidencia_ref": 287,
+    "foto": {
+      "legible": 1045,
+      "sin_foto": 153,
+      "borrosa": 116,
+      "oscura": 86
+    },
+    "categoria_declarada_vacia": 762,
+    "categoria_declarada_incorrecta": 88,
+    "historial_registros": 640,
+    "palabras_promedio": 19.865
+  },
+  "seleccion": {
+    "alpha_nb": 0.05,
+    "C_lr": 10.0,
+    "cv_f1_macro": {
+      "naive_bayes": {
+        "0.05": {
+          "media": 0.9760369238907207,
+          "desv": 0.0055668234574016845
+        },
+        "0.1": {
+          "media": 0.9724644839742748,
+          "desv": 0.007438274698988607
+        },
+        "0.3": {
+          "media": 0.9699538619340629,
+          "desv": 0.006582661721280562
+        },
+        "0.5": {
+          "media": 0.9681500212425234,
+          "desv": 0.007991895084509587
+        },
+        "1.0": {
+          "media": 0.962363772627852,
+          "desv": 0.005359074728018707
+        }
+      },
+      "regresion_logistica": {
+        "1.0": {
+          "media": 0.9661544189152192,
+          "desv": 0.013933950363967967
+        },
+        "2.0": {
+          "media": 0.9704250717705916,
+          "desv": 0.010585471891481978
+        },
+        "5.0": {
+          "media": 0.9742953178887642,
+          "desv": 0.008995933929547647
+        },
+        "10.0": {
+          "media": 0.976175759700447,
+          "desv": 0.0078069990115169074
+        },
+        "20.0": {
+          "media": 0.976175759700447,
+          "desv": 0.0078069990115169074
+        }
+      }
+    }
+  },
+  "umbral": {
+    "criterio": "menor umbral con error <= 0.10 entre los casos aceptados (validación agrupada en entrenamiento)",
+    "valor": 0.2,
+    "cobertura_validacion": 1.0,
+    "error_aceptados_validacion": 0.02376425855513308,
+    "exactitud_oof": 0.9762357414448669
+  },
+  "modelo": {
+    "vocabulario_nb": 2280
+  },
+  "clasificador": {
+    "prueba": {
+      "palabras_clave": {
+        "exactitud": 0.8189655172413793,
+        "precision_macro": 0.9072801555947981,
+        "recall_macro": 0.8152533864380186,
+        "f1_macro": 0.8468047988955841,
+        "n": 348
+      },
+      "naive_bayes": {
+        "exactitud": 0.9655172413793104,
+        "precision_macro": 0.9661281179138321,
+        "recall_macro": 0.9653228298258572,
+        "f1_macro": 0.9651805606284242,
+        "n": 348
+      },
+      "regresion_logistica": {
+        "exactitud": 0.9626436781609196,
+        "precision_macro": 0.9633900226757369,
+        "recall_macro": 0.9624073779308133,
+        "f1_macro": 0.9622936279734502,
+        "n": 348
+      },
+      "no_clasificados_palabras_clave": 28,
+      "naive_bayes_por_clase": {
+        "HUMEDAD": {
+          "precision": 0.9591836734693877,
+          "recall": 0.9591836734693877,
+          "f1": 0.9591836734693877,
+          "soporte": 49
+        },
+        "ELECTRICO": {
+          "precision": 0.9795918367346939,
+          "recall": 0.9795918367346939,
+          "f1": 0.9795918367346939,
+          "soporte": 49
+        },
+        "PUERTAS": {
+          "precision": 0.9444444444444444,
+          "recall": 0.9622641509433962,
+          "f1": 0.9532710280373832,
+          "soporte": 53
+        },
+        "PISOS": {
+          "precision": 0.9791666666666666,
+          "recall": 0.9591836734693877,
+          "f1": 0.9690721649484536,
+          "soporte": 49
+        },
+        "MUROS": {
+          "precision": 0.9821428571428571,
+          "recall": 0.9821428571428571,
+          "f1": 0.9821428571428571,
+          "soporte": 56
+        },
+        "SANITARIO": {
+          "precision": 0.9183673469387755,
+          "recall": 1.0,
+          "f1": 0.9574468085106383,
+          "soporte": 45
+        },
+        "MOBILIARIO": {
+          "precision": 1.0,
+          "recall": 0.9148936170212766,
+          "f1": 0.9555555555555556,
+          "soporte": 47
+        }
+      }
+    },
+    "externos": {
+      "palabras_clave": {
+        "exactitud": 0.8253968253968254,
+        "precision_macro": 0.8943556443556444,
+        "recall_macro": 0.8253968253968254,
+        "f1_macro": 0.8295551087567894,
+        "n": 63
+      },
+      "naive_bayes": {
+        "exactitud": 0.7142857142857143,
+        "precision_macro": 0.7212945784374357,
+        "recall_macro": 0.7142857142857142,
+        "f1_macro": 0.7137525185512802,
+        "n": 63
+      },
+      "regresion_logistica": {
+        "exactitud": 0.7936507936507936,
+        "precision_macro": 0.8022108843537415,
+        "recall_macro": 0.7936507936507935,
+        "f1_macro": 0.7928697794907437,
+        "n": 63
+      },
+      "no_clasificados_palabras_clave": 2,
+      "naive_bayes_por_clase": {
+        "HUMEDAD": {
+          "precision": 0.5555555555555556,
+          "recall": 0.5555555555555556,
+          "f1": 0.5555555555555556,
+          "soporte": 9
+        },
+        "ELECTRICO": {
+          "precision": 0.6363636363636364,
+          "recall": 0.7777777777777778,
+          "f1": 0.7,
+          "soporte": 9
+        },
+        "PUERTAS": {
+          "precision": 0.875,
+          "recall": 0.7777777777777778,
+          "f1": 0.8235294117647058,
+          "soporte": 9
+        },
+        "PISOS": {
+          "precision": 0.8571428571428571,
+          "recall": 0.6666666666666666,
+          "f1": 0.75,
+          "soporte": 9
+        },
+        "MUROS": {
+          "precision": 0.625,
+          "recall": 0.5555555555555556,
+          "f1": 0.5882352941176471,
+          "soporte": 9
+        },
+        "SANITARIO": {
+          "precision": 0.8,
+          "recall": 0.8888888888888888,
+          "f1": 0.8421052631578947,
+          "soporte": 9
+        },
+        "MOBILIARIO": {
+          "precision": 0.7,
+          "recall": 0.7777777777777778,
+          "f1": 0.7368421052631579,
+          "soporte": 9
+        }
+      }
+    },
+    "aleatoria": {
+      "palabras_clave": {
+        "exactitud": 0.8189655172413793,
+        "precision_macro": 0.8850045167118338,
+        "recall_macro": 0.8187196307094265,
+        "f1_macro": 0.839765305672029,
+        "n": 348
+      },
+      "naive_bayes": {
+        "exactitud": 0.9770114942528736,
+        "precision_macro": 0.9777610904272102,
+        "recall_macro": 0.9768888764296928,
+        "f1_macro": 0.9768831575183266,
+        "n": 348
+      },
+      "regresion_logistica": {
+        "exactitud": 0.9798850574712644,
+        "precision_macro": 0.9808097538532321,
+        "recall_macro": 0.9796361291769455,
+        "f1_macro": 0.9797658639989769,
+        "n": 348
+      }
+    }
+  },
+  "matrices_nb": {
+    "prueba": [
+      [
+        47,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        48,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        51,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        47,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        55,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        45,
+        0
+      ],
+      [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        43
+      ]
+    ],
+    "externos": [
+      [
+        5,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        7,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        7,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        6,
+        2,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        5,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        8,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        7
+      ]
+    ],
+    "etiquetas": [
+      "HUMEDAD",
+      "ELECTRICO",
+      "PUERTAS",
+      "PISOS",
+      "MUROS",
+      "SANITARIO",
+      "MOBILIARIO"
+    ]
+  },
+  "confianza": {
+    "prueba_errores": 12,
+    "prueba_errores_bajo_umbral": 0,
+    "externos_errores": 18,
+    "externos_errores_bajo_umbral": 0,
+    "externos_bajo_umbral": 0,
+    "prueba_bajo_umbral": 0
+  },
+  "exploratorio_post_hoc_umbral_externos": [
+    {
+      "umbral": 0.5,
+      "enviados_a_revision": 5,
+      "errores_capturados": 4,
+      "errores_totales": 18
+    },
+    {
+      "umbral": 0.7,
+      "enviados_a_revision": 10,
+      "errores_capturados": 7,
+      "errores_totales": 18
+    },
+    {
+      "umbral": 0.9,
+      "enviados_a_revision": 22,
+      "errores_capturados": 11,
+      "errores_totales": 18
+    },
+    {
+      "umbral": 0.99,
+      "enviados_a_revision": 35,
+      "errores_capturados": 17,
+      "errores_totales": 18
+    }
+  ],
+  "senales": {
+    "prueba": {
+      "agua": {
+        "soporte": 63,
+        "vp": 59,
+        "fp": 12,
+        "fn": 4,
+        "precision": 0.8309859154929577,
+        "recall": 0.9365079365079365
+      },
+      "electrico": {
+        "soporte": 54,
+        "vp": 37,
+        "fp": 1,
+        "fn": 17,
+        "precision": 0.9736842105263158,
+        "recall": 0.6851851851851852
+      },
+      "riesgo_electrico": {
+        "soporte": 13,
+        "vp": 13,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "desprendimiento": {
+        "soporte": 22,
+        "vp": 22,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "estructural": {
+        "soporte": 9,
+        "vp": 9,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "circulacion": {
+        "soporte": 40,
+        "vp": 32,
+        "fp": 0,
+        "fn": 8,
+        "precision": 1.0,
+        "recall": 0.8
+      },
+      "sin_servicio": {
+        "soporte": 25,
+        "vp": 25,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "estetico": {
+        "soporte": 45,
+        "vp": 29,
+        "fp": 12,
+        "fn": 16,
+        "precision": 0.7073170731707317,
+        "recall": 0.6444444444444445
+      }
+    },
+    "externos": {
+      "agua": {
+        "soporte": 13,
+        "vp": 10,
+        "fp": 1,
+        "fn": 3,
+        "precision": 0.9090909090909091,
+        "recall": 0.7692307692307693
+      },
+      "electrico": {
+        "soporte": 12,
+        "vp": 10,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.8333333333333334
+      },
+      "riesgo_electrico": {
+        "soporte": 4,
+        "vp": 2,
+        "fp": 1,
+        "fn": 2,
+        "precision": 0.6666666666666666,
+        "recall": 0.5
+      },
+      "desprendimiento": {
+        "soporte": 4,
+        "vp": 0,
+        "fp": 3,
+        "fn": 4,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "estructural": {
+        "soporte": 4,
+        "vp": 2,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.5
+      },
+      "circulacion": {
+        "soporte": 7,
+        "vp": 2,
+        "fp": 1,
+        "fn": 5,
+        "precision": 0.6666666666666666,
+        "recall": 0.2857142857142857
+      },
+      "sin_servicio": {
+        "soporte": 2,
+        "vp": 0,
+        "fp": 0,
+        "fn": 2,
+        "precision": null,
+        "recall": 0.0
+      },
+      "estetico": {
+        "soporte": 7,
+        "vp": 6,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.8571428571428571
+      }
+    }
+  },
+  "prioridad": {
+    "prueba": {
+      "B0_todo_media_orden_llegada": {
+        "n": 348,
+        "n_criticos": 53,
+        "exactitud_prioridad": 0.42528735632183906,
+        "recall_criticos": 0.0,
+        "falsos_negativos_criticos": 53,
+        "fn_criticos_sin_revision": 53,
+        "falsas_alarmas": 0,
+        "tasa_falsas_alarmas": 0.0,
+        "proporcion_revision_humana": 0.0,
+        "subestimacion": 0.46551724137931033,
+        "sobreestimacion": 0.10919540229885058,
+        "matriz": [
+          [
+            0,
+            38,
+            0,
+            0
+          ],
+          [
+            0,
+            148,
+            0,
+            0
+          ],
+          [
+            0,
+            118,
+            0,
+            0
+          ],
+          [
+            0,
+            44,
+            0,
+            0
+          ]
+        ]
+      },
+      "B1_palabras_clave_tabla_fija": {
+        "n": 348,
+        "n_criticos": 53,
+        "exactitud_prioridad": 0.41954022988505746,
+        "recall_criticos": 0.22641509433962265,
+        "falsos_negativos_criticos": 41,
+        "fn_criticos_sin_revision": 41,
+        "falsas_alarmas": 26,
+        "tasa_falsas_alarmas": 0.08813559322033898,
+        "proporcion_revision_humana": 0.0,
+        "subestimacion": 0.4540229885057471,
+        "sobreestimacion": 0.12643678160919541,
+        "matriz": [
+          [
+            8,
+            30,
+            0,
+            0
+          ],
+          [
+            8,
+            126,
+            14,
+            0
+          ],
+          [
+            3,
+            103,
+            12,
+            0
+          ],
+          [
+            6,
+            26,
+            12,
+            0
+          ]
+        ]
+      },
+      "A1_reglas_con_palabras_clave": {
+        "n": 348,
+        "n_criticos": 53,
+        "exactitud_prioridad": 0.8045977011494253,
+        "recall_criticos": 1.0,
+        "falsos_negativos_criticos": 0,
+        "fn_criticos_sin_revision": 0,
+        "falsas_alarmas": 2,
+        "tasa_falsas_alarmas": 0.006779661016949152,
+        "proporcion_revision_humana": 0.3448275862068966,
+        "subestimacion": 0.06609195402298851,
+        "sobreestimacion": 0.12931034482758622,
+        "matriz": [
+          [
+            0,
+            38,
+            0,
+            0
+          ],
+          [
+            0,
+            141,
+            5,
+            2
+          ],
+          [
+            0,
+            23,
+            95,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            44
+          ]
+        ]
+      },
+      "A2_reglas_con_categoria_real": {
+        "n": 348,
+        "n_criticos": 53,
+        "exactitud_prioridad": 0.8074712643678161,
+        "recall_criticos": 1.0,
+        "falsos_negativos_criticos": 0,
+        "fn_criticos_sin_revision": 0,
+        "falsas_alarmas": 1,
+        "tasa_falsas_alarmas": 0.003389830508474576,
+        "proporcion_revision_humana": 0.25287356321839083,
+        "subestimacion": 0.06609195402298851,
+        "sobreestimacion": 0.12643678160919541,
+        "matriz": [
+          [
+            0,
+            38,
+            0,
+            0
+          ],
+          [
+            0,
+            142,
+            5,
+            1
+          ],
+          [
+            0,
+            23,
+            95,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            44
+          ]
+        ]
+      },
+      "PROTOTIPO_NB_mas_reglas": {
+        "n": 348,
+        "n_criticos": 53,
+        "exactitud_prioridad": 0.8074712643678161,
+        "recall_criticos": 1.0,
+        "falsos_negativos_criticos": 0,
+        "fn_criticos_sin_revision": 0,
+        "falsas_alarmas": 1,
+        "tasa_falsas_alarmas": 0.003389830508474576,
+        "proporcion_revision_humana": 0.27011494252873564,
+        "subestimacion": 0.06609195402298851,
+        "sobreestimacion": 0.12643678160919541,
+        "matriz": [
+          [
+            0,
+            38,
+            0,
+            0
+          ],
+          [
+            0,
+            142,
+            5,
+            1
+          ],
+          [
+            0,
+            23,
+            95,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            44
+          ]
+        ]
+      },
+      "PROTOTIPO_tras_confirmacion_R5": {
+        "n": 348,
+        "n_criticos": 53,
+        "exactitud_prioridad": 0.8764367816091954,
+        "recall_criticos": 1.0,
+        "falsos_negativos_criticos": 0,
+        "fn_criticos_sin_revision": 0,
+        "falsas_alarmas": 1,
+        "tasa_falsas_alarmas": 0.003389830508474576,
+        "proporcion_revision_humana": 0.27011494252873564,
+        "subestimacion": 0.06896551724137931,
+        "sobreestimacion": 0.05459770114942529,
+        "matriz": [
+          [
+            21,
+            17,
+            0,
+            0
+          ],
+          [
+            1,
+            145,
+            1,
+            1
+          ],
+          [
+            0,
+            23,
+            95,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            44
+          ]
+        ]
+      }
+    },
+    "externos": {
+      "B0_todo_media_orden_llegada": {
+        "n": 63,
+        "n_criticos": 15,
+        "exactitud_prioridad": 0.5238095238095238,
+        "recall_criticos": 0.0,
+        "falsos_negativos_criticos": 15,
+        "fn_criticos_sin_revision": 15,
+        "falsas_alarmas": 0,
+        "tasa_falsas_alarmas": 0.0,
+        "proporcion_revision_humana": 0.0,
+        "subestimacion": 0.36507936507936506,
+        "sobreestimacion": 0.1111111111111111,
+        "matriz": [
+          [
+            0,
+            7,
+            0,
+            0
+          ],
+          [
+            0,
+            33,
+            0,
+            0
+          ],
+          [
+            0,
+            12,
+            0,
+            0
+          ],
+          [
+            0,
+            11,
+            0,
+            0
+          ]
+        ]
+      },
+      "B1_palabras_clave_tabla_fija": {
+        "n": 63,
+        "n_criticos": 15,
+        "exactitud_prioridad": 0.42857142857142855,
+        "recall_criticos": 0.2,
+        "falsos_negativos_criticos": 12,
+        "fn_criticos_sin_revision": 12,
+        "falsas_alarmas": 5,
+        "tasa_falsas_alarmas": 0.10416666666666667,
+        "proporcion_revision_humana": 0.0,
+        "subestimacion": 0.4126984126984127,
+        "sobreestimacion": 0.15873015873015872,
+        "matriz": [
+          [
+            1,
+            6,
+            0,
+            0
+          ],
+          [
+            4,
+            25,
+            4,
+            0
+          ],
+          [
+            0,
+            11,
+            1,
+            0
+          ],
+          [
+            1,
+            7,
+            3,
+            0
+          ]
+        ]
+      },
+      "A1_reglas_con_palabras_clave": {
+        "n": 63,
+        "n_criticos": 15,
+        "exactitud_prioridad": 0.6031746031746031,
+        "recall_criticos": 0.3333333333333333,
+        "falsos_negativos_criticos": 10,
+        "fn_criticos_sin_revision": 10,
+        "falsas_alarmas": 3,
+        "tasa_falsas_alarmas": 0.0625,
+        "proporcion_revision_humana": 0.14285714285714285,
+        "subestimacion": 0.2222222222222222,
+        "sobreestimacion": 0.1746031746031746,
+        "matriz": [
+          [
+            0,
+            7,
+            0,
+            0
+          ],
+          [
+            0,
+            32,
+            1,
+            0
+          ],
+          [
+            0,
+            6,
+            3,
+            3
+          ],
+          [
+            0,
+            8,
+            0,
+            3
+          ]
+        ]
+      },
+      "A2_reglas_con_categoria_real": {
+        "n": 63,
+        "n_criticos": 15,
+        "exactitud_prioridad": 0.6190476190476191,
+        "recall_criticos": 0.4,
+        "falsos_negativos_criticos": 9,
+        "fn_criticos_sin_revision": 9,
+        "falsas_alarmas": 3,
+        "tasa_falsas_alarmas": 0.0625,
+        "proporcion_revision_humana": 0.14285714285714285,
+        "subestimacion": 0.20634920634920634,
+        "sobreestimacion": 0.1746031746031746,
+        "matriz": [
+          [
+            0,
+            7,
+            0,
+            0
+          ],
+          [
+            0,
+            32,
+            1,
+            0
+          ],
+          [
+            0,
+            6,
+            3,
+            3
+          ],
+          [
+            0,
+            7,
+            0,
+            4
+          ]
+        ]
+      },
+      "PROTOTIPO_NB_mas_reglas": {
+        "n": 63,
+        "n_criticos": 15,
+        "exactitud_prioridad": 0.5873015873015873,
+        "recall_criticos": 0.3333333333333333,
+        "falsos_negativos_criticos": 10,
+        "fn_criticos_sin_revision": 10,
+        "falsas_alarmas": 4,
+        "tasa_falsas_alarmas": 0.08333333333333333,
+        "proporcion_revision_humana": 0.14285714285714285,
+        "subestimacion": 0.2222222222222222,
+        "sobreestimacion": 0.19047619047619047,
+        "matriz": [
+          [
+            0,
+            7,
+            0,
+            0
+          ],
+          [
+            0,
+            31,
+            1,
+            1
+          ],
+          [
+            0,
+            6,
+            3,
+            3
+          ],
+          [
+            0,
+            8,
+            0,
+            3
+          ]
+        ]
+      },
+      "PROTOTIPO_tras_confirmacion_R5": {
+        "n": 63,
+        "n_criticos": 15,
+        "exactitud_prioridad": 0.6825396825396826,
+        "recall_criticos": 0.3333333333333333,
+        "falsos_negativos_criticos": 10,
+        "fn_criticos_sin_revision": 10,
+        "falsas_alarmas": 4,
+        "tasa_falsas_alarmas": 0.08333333333333333,
+        "proporcion_revision_humana": 0.14285714285714285,
+        "subestimacion": 0.2222222222222222,
+        "sobreestimacion": 0.09523809523809523,
+        "matriz": [
+          [
+            6,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            31,
+            1,
+            1
+          ],
+          [
+            0,
+            6,
+            3,
+            3
+          ],
+          [
+            0,
+            8,
+            0,
+            3
+          ]
+        ]
+      }
+    }
+  },
+  "reglas_disparadas": {
+    "prueba": {
+      "R2": 31,
+      "R11": 13,
+      "R10": 32,
+      "R9": 34,
+      "R8": 29,
+      "R1": 10,
+      "R3": 55,
+      "R12": 25,
+      "R7": 18
+    },
+    "externos": {
+      "R1": 3,
+      "R11": 3,
+      "R2": 5,
+      "R10": 3
+    }
+  },
+  "duplicados_R4_prueba": {
+    "duplicados_reales": 25,
+    "vinculados_correctamente": 20,
+    "recall_duplicados": 0.8,
+    "vinculaciones_totales": 38,
+    "vinculaciones_incorrectas": 17,
+    "precision_vinculacion": 0.5263157894736842
+  },
+  "casos_creados_prueba": 310,
+  "pruebas": {
+    "aprobadas": 11,
+    "total": 12,
+    "sha256_especificacion": "c13987850e583a86fd7734d5ba20f5bd464abb1d8f7f4ced894c21848d876084"
+  }
+}

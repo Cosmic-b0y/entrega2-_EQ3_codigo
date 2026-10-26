@@ -1,0 +1,15 @@
+$ python3 generador_datos.py
+{
+  "semilla": 2026,
+  "n_reportes": 1400,
+  "n_historial": 640,
+  "plantillas_prueba": [
+    "T03",
+    "T05",
+    "T10",
+    "T13"
+  ],
+  "nota": "Datos SIMULADOS. No corresponden a reportes reales de la UNACH ni de ETDA."
+}
+
+[2026-10-25 22:48:54 · 1.3 s · código 0]

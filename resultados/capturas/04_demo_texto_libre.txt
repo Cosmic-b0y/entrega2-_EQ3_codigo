@@ -1,0 +1,16 @@
+$ python3 demo_consola.py --texto "El apagador del aula 204 echa chispas cuando lo prendes" --zona "Aula 204"
+------------------------------------------------------------------------------
+Reporte: El apagador del aula 204 echa chispas cuando lo prendes
+  Zona: Aula 204 | Foto: legible
+  INTERPRETAR  categoría sugerida: ELECTRICO (confianza 1.00)
+               alternativas: [('ELECTRICO', 1.0), ('HUMEDAD', 0.0), ('MOBILIARIO', 0.0)]
+               palabras que más pesaron: [('chispas', 5.17), ('echa', 5.17), ('echa chispas', 5.17)]
+               señales en el texto: ['electrico', 'riesgo_electrico']
+  DECIDIR      PRIORIDAD PRELIMINAR: Inmediata | escalamiento: sí | revisión humana: sí
+               reglas: ['R11']
+               motivos: ['indicio de riesgo eléctrico directo']
+               revisión por: ['señal de riesgo que exige valoración competente']
+  ACTUAR       C0001  acciones: ['crear_caso', 'alertar_area_competente']
+  Aviso: sugerencia preliminar; la decisión corresponde al personal responsable.
+
+[2026-10-25 22:49:02 · 1.2 s · código 0]

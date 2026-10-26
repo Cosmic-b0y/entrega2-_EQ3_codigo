@@ -1,0 +1,1988 @@
+[
+ {
+  "fuente": "parametro",
+  "ruta": "SEMILLA",
+  "formato": "raw",
+  "texto": "2026"
+ },
+ {
+  "fuente": "parametro",
+  "ruta": "SEMILLA",
+  "formato": "raw",
+  "texto": "2026"
+ },
+ {
+  "fuente": "parametro",
+  "ruta": "N_ESCENARIOS",
+  "formato": "raw",
+  "texto": "34"
+ },
+ {
+  "fuente": "parametro",
+  "ruta": "N_PLANTILLAS",
+  "formato": "raw",
+  "texto": "16"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "datos.n_total",
+  "formato": "int",
+  "texto": "1400"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "datos.n_entrenamiento",
+  "formato": "int",
+  "texto": "1052"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "datos.n_prueba",
+  "formato": "int",
+  "texto": "348"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "datos.n_externos",
+  "formato": "int",
+  "texto": "63"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "datos.historial_registros",
+  "formato": "int",
+  "texto": "640"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "datos.zona_vacia",
+  "formato": "int",
+  "texto": "72"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "datos.activo_vacio",
+  "formato": "int",
+  "texto": "477"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "datos.categoria_declarada_vacia",
+  "formato": "int",
+  "texto": "762"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "datos.categoria_declarada_incorrecta",
+  "formato": "int",
+  "texto": "88"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "datos.foto.borrosa",
+  "formato": "int",
+  "texto": "116"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "datos.foto.oscura",
+  "formato": "int",
+  "texto": "86"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "datos.foto.sin_foto",
+  "formato": "int",
+  "texto": "153"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "datos.textos_vagos",
+  "formato": "int",
+  "texto": "49"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "datos.duplicados",
+  "formato": "int",
+  "texto": "84"
+ },
+ {
+  "fuente": "parametro",
+  "ruta": "N_ESCENARIOS",
+  "formato": "raw",
+  "texto": "34"
+ },
+ {
+  "fuente": "parametro",
+  "ruta": "N_PLANTILLAS",
+  "formato": "raw",
+  "texto": "16"
+ },
+ {
+  "fuente": "parametro",
+  "ruta": "P_DUPLICADO",
+  "formato": "raw",
+  "texto": "0.06"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "datos.por_prioridad_ref.Inmediata",
+  "formato": "int",
+  "texto": "183"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "datos.por_prioridad_ref_prueba.Inmediata",
+  "formato": "int",
+  "texto": "44"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "datos.por_prioridad_ref_externos.Inmediata",
+  "formato": "int",
+  "texto": "11"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "datos.por_prioridad_ref.Alta",
+  "formato": "int",
+  "texto": "480"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "datos.por_prioridad_ref_prueba.Alta",
+  "formato": "int",
+  "texto": "118"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "datos.por_prioridad_ref_externos.Alta",
+  "formato": "int",
+  "texto": "12"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "datos.por_prioridad_ref.Media",
+  "formato": "int",
+  "texto": "603"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "datos.por_prioridad_ref_prueba.Media",
+  "formato": "int",
+  "texto": "148"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "datos.por_prioridad_ref_externos.Media",
+  "formato": "int",
+  "texto": "33"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "datos.por_prioridad_ref.Baja",
+  "formato": "int",
+  "texto": "134"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "datos.por_prioridad_ref_prueba.Baja",
+  "formato": "int",
+  "texto": "38"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "datos.por_prioridad_ref_externos.Baja",
+  "formato": "int",
+  "texto": "7"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "datos.criticos_total",
+  "formato": "int",
+  "texto": "214"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "datos.criticos_prueba",
+  "formato": "int",
+  "texto": "53"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "datos.criticos_externos",
+  "formato": "int",
+  "texto": "15"
+ },
+ {
+  "fuente": "parametro",
+  "ruta": "PARAMETROS.ventana_duplicado_dias",
+  "formato": "raw",
+  "texto": "7"
+ },
+ {
+  "fuente": "parametro",
+  "ruta": "PARAMETROS.similitud_duplicado",
+  "formato": "raw",
+  "texto": "0.35"
+ },
+ {
+  "fuente": "parametro",
+  "ruta": "PARAMETROS.antiguedad_aviso_dias",
+  "formato": "raw",
+  "texto": "15"
+ },
+ {
+  "fuente": "parametro",
+  "ruta": "PARAMETROS.min_palabras_descripcion",
+  "formato": "raw",
+  "texto": "4"
+ },
+ {
+  "fuente": "parametro",
+  "ruta": "PARAMETROS.min_incidencias_reincidencia",
+  "formato": "raw",
+  "texto": "2"
+ },
+ {
+  "fuente": "parametro",
+  "ruta": "PARAMETROS.ventana_reincidencia_dias",
+  "formato": "raw",
+  "texto": "90"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "seleccion.alpha_nb",
+  "formato": "raw",
+  "texto": "0.05"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": [
+   "seleccion",
+   "cv_f1_macro",
+   "naive_bayes",
+   "0.05",
+   "media"
+  ],
+  "formato": "dec3",
+  "texto": "0.976"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "seleccion.C_lr",
+  "formato": "raw",
+  "texto": "10.0"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": [
+   "seleccion",
+   "cv_f1_macro",
+   "regresion_logistica",
+   "10.0",
+   "media"
+  ],
+  "formato": "dec3",
+  "texto": "0.976"
+ },
+ {
+  "fuente": "parametro",
+  "ruta": "PARAMETROS.ventana_reincidencia_dias",
+  "formato": "raw",
+  "texto": "90"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "pruebas.total",
+  "formato": "int",
+  "texto": "12"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "pruebas.aprobadas",
+  "formato": "int",
+  "texto": "11"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "pruebas.total",
+  "formato": "int",
+  "texto": "12"
+ },
+ {
+  "fuente": "pruebas_resultados.json",
+  "ruta": "P03.obtenido.confianza",
+  "formato": "dec2",
+  "texto": "0.42"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "umbral.valor",
+  "formato": "dec2",
+  "texto": "0.20"
+ },
+ {
+  "fuente": "pruebas_resultados.json",
+  "ruta": "P01.correcto",
+  "formato": "raw",
+  "texto": "Sí",
+  "valor": true
+ },
+ {
+  "fuente": "pruebas_resultados.json",
+  "ruta": "P02.correcto",
+  "formato": "raw",
+  "texto": "Sí",
+  "valor": true
+ },
+ {
+  "fuente": "pruebas_resultados.json",
+  "ruta": "P03.correcto",
+  "formato": "raw",
+  "texto": "No",
+  "valor": false
+ },
+ {
+  "fuente": "pruebas_resultados.json",
+  "ruta": "P04.correcto",
+  "formato": "raw",
+  "texto": "Sí",
+  "valor": true
+ },
+ {
+  "fuente": "pruebas_resultados.json",
+  "ruta": "P05.correcto",
+  "formato": "raw",
+  "texto": "Sí",
+  "valor": true
+ },
+ {
+  "fuente": "pruebas_resultados.json",
+  "ruta": "P06.correcto",
+  "formato": "raw",
+  "texto": "Sí",
+  "valor": true
+ },
+ {
+  "fuente": "pruebas_resultados.json",
+  "ruta": "P07.correcto",
+  "formato": "raw",
+  "texto": "Sí",
+  "valor": true
+ },
+ {
+  "fuente": "pruebas_resultados.json",
+  "ruta": "P08.correcto",
+  "formato": "raw",
+  "texto": "Sí",
+  "valor": true
+ },
+ {
+  "fuente": "pruebas_resultados.json",
+  "ruta": "P09.correcto",
+  "formato": "raw",
+  "texto": "Sí",
+  "valor": true
+ },
+ {
+  "fuente": "pruebas_resultados.json",
+  "ruta": "P10.correcto",
+  "formato": "raw",
+  "texto": "Sí",
+  "valor": true
+ },
+ {
+  "fuente": "pruebas_resultados.json",
+  "ruta": "P11.correcto",
+  "formato": "raw",
+  "texto": "Sí",
+  "valor": true
+ },
+ {
+  "fuente": "pruebas_resultados.json",
+  "ruta": "P12.correcto",
+  "formato": "raw",
+  "texto": "Sí",
+  "valor": true
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.prueba.naive_bayes.n",
+  "formato": "int",
+  "texto": "348"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.externos.naive_bayes.n",
+  "formato": "int",
+  "texto": "63"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.aleatoria.naive_bayes.n",
+  "formato": "int",
+  "texto": "348"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.prueba.palabras_clave.exactitud",
+  "formato": "dec3",
+  "texto": "0.819"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.prueba.palabras_clave.precision_macro",
+  "formato": "dec3",
+  "texto": "0.907"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.prueba.palabras_clave.recall_macro",
+  "formato": "dec3",
+  "texto": "0.815"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.prueba.palabras_clave.f1_macro",
+  "formato": "dec3",
+  "texto": "0.847"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.prueba.naive_bayes.exactitud",
+  "formato": "dec3",
+  "texto": "0.966"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.prueba.naive_bayes.precision_macro",
+  "formato": "dec3",
+  "texto": "0.966"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.prueba.naive_bayes.recall_macro",
+  "formato": "dec3",
+  "texto": "0.965"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.prueba.naive_bayes.f1_macro",
+  "formato": "dec3",
+  "texto": "0.965"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.prueba.regresion_logistica.exactitud",
+  "formato": "dec3",
+  "texto": "0.963"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.prueba.regresion_logistica.precision_macro",
+  "formato": "dec3",
+  "texto": "0.963"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.prueba.regresion_logistica.recall_macro",
+  "formato": "dec3",
+  "texto": "0.962"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.prueba.regresion_logistica.f1_macro",
+  "formato": "dec3",
+  "texto": "0.962"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.externos.palabras_clave.exactitud",
+  "formato": "dec3",
+  "texto": "0.825"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.externos.palabras_clave.precision_macro",
+  "formato": "dec3",
+  "texto": "0.894"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.externos.palabras_clave.recall_macro",
+  "formato": "dec3",
+  "texto": "0.825"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.externos.palabras_clave.f1_macro",
+  "formato": "dec3",
+  "texto": "0.830"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.externos.naive_bayes.exactitud",
+  "formato": "dec3",
+  "texto": "0.714"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.externos.naive_bayes.precision_macro",
+  "formato": "dec3",
+  "texto": "0.721"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.externos.naive_bayes.recall_macro",
+  "formato": "dec3",
+  "texto": "0.714"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.externos.naive_bayes.f1_macro",
+  "formato": "dec3",
+  "texto": "0.714"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.externos.regresion_logistica.exactitud",
+  "formato": "dec3",
+  "texto": "0.794"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.externos.regresion_logistica.precision_macro",
+  "formato": "dec3",
+  "texto": "0.802"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.externos.regresion_logistica.recall_macro",
+  "formato": "dec3",
+  "texto": "0.794"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.externos.regresion_logistica.f1_macro",
+  "formato": "dec3",
+  "texto": "0.793"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.aleatoria.palabras_clave.exactitud",
+  "formato": "dec3",
+  "texto": "0.819"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.aleatoria.palabras_clave.precision_macro",
+  "formato": "dec3",
+  "texto": "0.885"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.aleatoria.palabras_clave.recall_macro",
+  "formato": "dec3",
+  "texto": "0.819"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.aleatoria.palabras_clave.f1_macro",
+  "formato": "dec3",
+  "texto": "0.840"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.aleatoria.naive_bayes.exactitud",
+  "formato": "dec3",
+  "texto": "0.977"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.aleatoria.naive_bayes.precision_macro",
+  "formato": "dec3",
+  "texto": "0.978"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.aleatoria.naive_bayes.recall_macro",
+  "formato": "dec3",
+  "texto": "0.977"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.aleatoria.naive_bayes.f1_macro",
+  "formato": "dec3",
+  "texto": "0.977"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.aleatoria.regresion_logistica.exactitud",
+  "formato": "dec3",
+  "texto": "0.980"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.aleatoria.regresion_logistica.precision_macro",
+  "formato": "dec3",
+  "texto": "0.981"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.aleatoria.regresion_logistica.recall_macro",
+  "formato": "dec3",
+  "texto": "0.980"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.aleatoria.regresion_logistica.f1_macro",
+  "formato": "dec3",
+  "texto": "0.980"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.prueba.no_clasificados_palabras_clave",
+  "formato": "int",
+  "texto": "28"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.externos.no_clasificados_palabras_clave",
+  "formato": "int",
+  "texto": "2"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.prueba.naive_bayes.f1_macro",
+  "formato": "dec3",
+  "texto": "0.965"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.prueba.palabras_clave.f1_macro",
+  "formato": "dec3",
+  "texto": "0.847"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.aleatoria.naive_bayes.f1_macro",
+  "formato": "dec3",
+  "texto": "0.977"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.externos.naive_bayes.f1_macro",
+  "formato": "dec3",
+  "texto": "0.714"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.externos.regresion_logistica.f1_macro",
+  "formato": "dec3",
+  "texto": "0.793"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.externos.palabras_clave.f1_macro",
+  "formato": "dec3",
+  "texto": "0.830"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.externos.naive_bayes_por_clase.HUMEDAD.recall",
+  "formato": "dec3",
+  "texto": "0.556"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.externos.naive_bayes_por_clase.MUROS.recall",
+  "formato": "dec3",
+  "texto": "0.556"
+ },
+ {
+  "fuente": "parametro",
+  "ruta": "ERROR_MAX_ACEPTADOS",
+  "formato": "pct1",
+  "texto": "10.0 %"
+ },
+ {
+  "fuente": "parametro",
+  "ruta": "GRID_UMBRAL_MIN",
+  "formato": "dec2",
+  "texto": "0.20"
+ },
+ {
+  "fuente": "parametro",
+  "ruta": "GRID_UMBRAL_MAX",
+  "formato": "dec2",
+  "texto": "0.99"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "umbral.error_aceptados_validacion",
+  "formato": "pct1",
+  "texto": "2.4 %"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "umbral.valor",
+  "formato": "dec2",
+  "texto": "0.20"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "umbral.cobertura_validacion",
+  "formato": "pct1",
+  "texto": "100.0 %"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "confianza.prueba_bajo_umbral",
+  "formato": "int",
+  "texto": "0"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "confianza.externos_bajo_umbral",
+  "formato": "int",
+  "texto": "0"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "confianza.externos_errores",
+  "formato": "int",
+  "texto": "18"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "confianza.prueba_errores",
+  "formato": "int",
+  "texto": "12"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "exploratorio_post_hoc_umbral_externos.0.umbral",
+  "formato": "dec2",
+  "texto": "0.50"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "exploratorio_post_hoc_umbral_externos.0.enviados_a_revision",
+  "formato": "int",
+  "texto": "5"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "datos.n_externos",
+  "formato": "int",
+  "texto": "63"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "exploratorio_post_hoc_umbral_externos.0.errores_capturados",
+  "formato": "int",
+  "texto": "4"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "exploratorio_post_hoc_umbral_externos.0.errores_totales",
+  "formato": "int",
+  "texto": "18"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "exploratorio_post_hoc_umbral_externos.1.umbral",
+  "formato": "dec2",
+  "texto": "0.70"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "exploratorio_post_hoc_umbral_externos.1.enviados_a_revision",
+  "formato": "int",
+  "texto": "10"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "datos.n_externos",
+  "formato": "int",
+  "texto": "63"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "exploratorio_post_hoc_umbral_externos.1.errores_capturados",
+  "formato": "int",
+  "texto": "7"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "exploratorio_post_hoc_umbral_externos.1.errores_totales",
+  "formato": "int",
+  "texto": "18"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "exploratorio_post_hoc_umbral_externos.2.umbral",
+  "formato": "dec2",
+  "texto": "0.90"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "exploratorio_post_hoc_umbral_externos.2.enviados_a_revision",
+  "formato": "int",
+  "texto": "22"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "datos.n_externos",
+  "formato": "int",
+  "texto": "63"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "exploratorio_post_hoc_umbral_externos.2.errores_capturados",
+  "formato": "int",
+  "texto": "11"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "exploratorio_post_hoc_umbral_externos.2.errores_totales",
+  "formato": "int",
+  "texto": "18"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "exploratorio_post_hoc_umbral_externos.3.umbral",
+  "formato": "dec2",
+  "texto": "0.99"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "exploratorio_post_hoc_umbral_externos.3.enviados_a_revision",
+  "formato": "int",
+  "texto": "35"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "datos.n_externos",
+  "formato": "int",
+  "texto": "63"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "exploratorio_post_hoc_umbral_externos.3.errores_capturados",
+  "formato": "int",
+  "texto": "17"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "exploratorio_post_hoc_umbral_externos.3.errores_totales",
+  "formato": "int",
+  "texto": "18"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.prueba.agua.soporte",
+  "formato": "int",
+  "texto": "63"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.prueba.agua.precision",
+  "formato": "dec3",
+  "texto": "0.831"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.prueba.agua.recall",
+  "formato": "dec3",
+  "texto": "0.937"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.externos.agua.soporte",
+  "formato": "int",
+  "texto": "13"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.externos.agua.precision",
+  "formato": "dec3",
+  "texto": "0.909"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.externos.agua.recall",
+  "formato": "dec3",
+  "texto": "0.769"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.prueba.electrico.soporte",
+  "formato": "int",
+  "texto": "54"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.prueba.electrico.precision",
+  "formato": "dec3",
+  "texto": "0.974"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.prueba.electrico.recall",
+  "formato": "dec3",
+  "texto": "0.685"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.externos.electrico.soporte",
+  "formato": "int",
+  "texto": "12"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.externos.electrico.precision",
+  "formato": "dec3",
+  "texto": "1.000"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.externos.electrico.recall",
+  "formato": "dec3",
+  "texto": "0.833"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.prueba.riesgo_electrico.soporte",
+  "formato": "int",
+  "texto": "13"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.prueba.riesgo_electrico.precision",
+  "formato": "dec3",
+  "texto": "1.000"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.prueba.riesgo_electrico.recall",
+  "formato": "dec3",
+  "texto": "1.000"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.externos.riesgo_electrico.soporte",
+  "formato": "int",
+  "texto": "4"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.externos.riesgo_electrico.precision",
+  "formato": "dec3",
+  "texto": "0.667"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.externos.riesgo_electrico.recall",
+  "formato": "dec3",
+  "texto": "0.500"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.prueba.desprendimiento.soporte",
+  "formato": "int",
+  "texto": "22"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.prueba.desprendimiento.precision",
+  "formato": "dec3",
+  "texto": "1.000"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.prueba.desprendimiento.recall",
+  "formato": "dec3",
+  "texto": "1.000"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.externos.desprendimiento.soporte",
+  "formato": "int",
+  "texto": "4"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.externos.desprendimiento.precision",
+  "formato": "dec3",
+  "texto": "0.000"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.externos.desprendimiento.recall",
+  "formato": "dec3",
+  "texto": "0.000"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.prueba.estructural.soporte",
+  "formato": "int",
+  "texto": "9"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.prueba.estructural.precision",
+  "formato": "dec3",
+  "texto": "1.000"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.prueba.estructural.recall",
+  "formato": "dec3",
+  "texto": "1.000"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.externos.estructural.soporte",
+  "formato": "int",
+  "texto": "4"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.externos.estructural.precision",
+  "formato": "dec3",
+  "texto": "1.000"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.externos.estructural.recall",
+  "formato": "dec3",
+  "texto": "0.500"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.prueba.circulacion.soporte",
+  "formato": "int",
+  "texto": "40"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.prueba.circulacion.precision",
+  "formato": "dec3",
+  "texto": "1.000"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.prueba.circulacion.recall",
+  "formato": "dec3",
+  "texto": "0.800"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.externos.circulacion.soporte",
+  "formato": "int",
+  "texto": "7"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.externos.circulacion.precision",
+  "formato": "dec3",
+  "texto": "0.667"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.externos.circulacion.recall",
+  "formato": "dec3",
+  "texto": "0.286"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.prueba.sin_servicio.soporte",
+  "formato": "int",
+  "texto": "25"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.prueba.sin_servicio.precision",
+  "formato": "dec3",
+  "texto": "1.000"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.prueba.sin_servicio.recall",
+  "formato": "dec3",
+  "texto": "1.000"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.externos.sin_servicio.soporte",
+  "formato": "int",
+  "texto": "2"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.externos.sin_servicio.precision",
+  "formato": "dec3",
+  "texto": "—"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.externos.sin_servicio.recall",
+  "formato": "dec3",
+  "texto": "0.000"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.prueba.estetico.soporte",
+  "formato": "int",
+  "texto": "45"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.prueba.estetico.precision",
+  "formato": "dec3",
+  "texto": "0.707"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.prueba.estetico.recall",
+  "formato": "dec3",
+  "texto": "0.644"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.externos.estetico.soporte",
+  "formato": "int",
+  "texto": "7"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.externos.estetico.precision",
+  "formato": "dec3",
+  "texto": "1.000"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.externos.estetico.recall",
+  "formato": "dec3",
+  "texto": "0.857"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.prueba.desprendimiento.recall",
+  "formato": "dec3",
+  "texto": "1.000"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.prueba.riesgo_electrico.recall",
+  "formato": "dec3",
+  "texto": "1.000"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.externos.desprendimiento.recall",
+  "formato": "dec3",
+  "texto": "0.000"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.externos.circulacion.recall",
+  "formato": "dec3",
+  "texto": "0.286"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "senales.externos.riesgo_electrico.recall",
+  "formato": "dec3",
+  "texto": "0.500"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.B0_todo_media_orden_llegada.exactitud_prioridad",
+  "formato": "dec3",
+  "texto": "0.425"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.B0_todo_media_orden_llegada.recall_criticos",
+  "formato": "dec3",
+  "texto": "0.000"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.B0_todo_media_orden_llegada.falsos_negativos_criticos",
+  "formato": "int",
+  "texto": "53"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.B0_todo_media_orden_llegada.fn_criticos_sin_revision",
+  "formato": "int",
+  "texto": "53"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.B0_todo_media_orden_llegada.falsas_alarmas",
+  "formato": "int",
+  "texto": "0"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.B0_todo_media_orden_llegada.proporcion_revision_humana",
+  "formato": "pct1",
+  "texto": "0.0 %"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.B0_todo_media_orden_llegada.subestimacion",
+  "formato": "pct1",
+  "texto": "46.6 %"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.B1_palabras_clave_tabla_fija.exactitud_prioridad",
+  "formato": "dec3",
+  "texto": "0.420"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.B1_palabras_clave_tabla_fija.recall_criticos",
+  "formato": "dec3",
+  "texto": "0.226"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.B1_palabras_clave_tabla_fija.falsos_negativos_criticos",
+  "formato": "int",
+  "texto": "41"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.B1_palabras_clave_tabla_fija.fn_criticos_sin_revision",
+  "formato": "int",
+  "texto": "41"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.B1_palabras_clave_tabla_fija.falsas_alarmas",
+  "formato": "int",
+  "texto": "26"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.B1_palabras_clave_tabla_fija.proporcion_revision_humana",
+  "formato": "pct1",
+  "texto": "0.0 %"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.B1_palabras_clave_tabla_fija.subestimacion",
+  "formato": "pct1",
+  "texto": "45.4 %"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.A1_reglas_con_palabras_clave.exactitud_prioridad",
+  "formato": "dec3",
+  "texto": "0.805"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.A1_reglas_con_palabras_clave.recall_criticos",
+  "formato": "dec3",
+  "texto": "1.000"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.A1_reglas_con_palabras_clave.falsos_negativos_criticos",
+  "formato": "int",
+  "texto": "0"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.A1_reglas_con_palabras_clave.fn_criticos_sin_revision",
+  "formato": "int",
+  "texto": "0"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.A1_reglas_con_palabras_clave.falsas_alarmas",
+  "formato": "int",
+  "texto": "2"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.A1_reglas_con_palabras_clave.proporcion_revision_humana",
+  "formato": "pct1",
+  "texto": "34.5 %"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.A1_reglas_con_palabras_clave.subestimacion",
+  "formato": "pct1",
+  "texto": "6.6 %"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.A2_reglas_con_categoria_real.exactitud_prioridad",
+  "formato": "dec3",
+  "texto": "0.807"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.A2_reglas_con_categoria_real.recall_criticos",
+  "formato": "dec3",
+  "texto": "1.000"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.A2_reglas_con_categoria_real.falsos_negativos_criticos",
+  "formato": "int",
+  "texto": "0"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.A2_reglas_con_categoria_real.fn_criticos_sin_revision",
+  "formato": "int",
+  "texto": "0"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.A2_reglas_con_categoria_real.falsas_alarmas",
+  "formato": "int",
+  "texto": "1"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.A2_reglas_con_categoria_real.proporcion_revision_humana",
+  "formato": "pct1",
+  "texto": "25.3 %"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.A2_reglas_con_categoria_real.subestimacion",
+  "formato": "pct1",
+  "texto": "6.6 %"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.PROTOTIPO_NB_mas_reglas.exactitud_prioridad",
+  "formato": "dec3",
+  "texto": "0.807"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.PROTOTIPO_NB_mas_reglas.recall_criticos",
+  "formato": "dec3",
+  "texto": "1.000"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.PROTOTIPO_NB_mas_reglas.falsos_negativos_criticos",
+  "formato": "int",
+  "texto": "0"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.PROTOTIPO_NB_mas_reglas.fn_criticos_sin_revision",
+  "formato": "int",
+  "texto": "0"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.PROTOTIPO_NB_mas_reglas.falsas_alarmas",
+  "formato": "int",
+  "texto": "1"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.PROTOTIPO_NB_mas_reglas.proporcion_revision_humana",
+  "formato": "pct1",
+  "texto": "27.0 %"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.PROTOTIPO_NB_mas_reglas.subestimacion",
+  "formato": "pct1",
+  "texto": "6.6 %"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.PROTOTIPO_tras_confirmacion_R5.exactitud_prioridad",
+  "formato": "dec3",
+  "texto": "0.876"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.PROTOTIPO_tras_confirmacion_R5.recall_criticos",
+  "formato": "dec3",
+  "texto": "1.000"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.PROTOTIPO_tras_confirmacion_R5.falsos_negativos_criticos",
+  "formato": "int",
+  "texto": "0"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.PROTOTIPO_tras_confirmacion_R5.fn_criticos_sin_revision",
+  "formato": "int",
+  "texto": "0"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.PROTOTIPO_tras_confirmacion_R5.falsas_alarmas",
+  "formato": "int",
+  "texto": "1"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.PROTOTIPO_tras_confirmacion_R5.proporcion_revision_humana",
+  "formato": "pct1",
+  "texto": "27.0 %"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.PROTOTIPO_tras_confirmacion_R5.subestimacion",
+  "formato": "pct1",
+  "texto": "6.9 %"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.PROTOTIPO_NB_mas_reglas.n",
+  "formato": "int",
+  "texto": "348"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.PROTOTIPO_NB_mas_reglas.n_criticos",
+  "formato": "int",
+  "texto": "53"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.B0_todo_media_orden_llegada.exactitud_prioridad",
+  "formato": "dec3",
+  "texto": "0.524"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.B0_todo_media_orden_llegada.recall_criticos",
+  "formato": "dec3",
+  "texto": "0.000"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.B0_todo_media_orden_llegada.falsos_negativos_criticos",
+  "formato": "int",
+  "texto": "15"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.B0_todo_media_orden_llegada.fn_criticos_sin_revision",
+  "formato": "int",
+  "texto": "15"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.B0_todo_media_orden_llegada.falsas_alarmas",
+  "formato": "int",
+  "texto": "0"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.B0_todo_media_orden_llegada.proporcion_revision_humana",
+  "formato": "pct1",
+  "texto": "0.0 %"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.B0_todo_media_orden_llegada.subestimacion",
+  "formato": "pct1",
+  "texto": "36.5 %"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.B1_palabras_clave_tabla_fija.exactitud_prioridad",
+  "formato": "dec3",
+  "texto": "0.429"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.B1_palabras_clave_tabla_fija.recall_criticos",
+  "formato": "dec3",
+  "texto": "0.200"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.B1_palabras_clave_tabla_fija.falsos_negativos_criticos",
+  "formato": "int",
+  "texto": "12"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.B1_palabras_clave_tabla_fija.fn_criticos_sin_revision",
+  "formato": "int",
+  "texto": "12"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.B1_palabras_clave_tabla_fija.falsas_alarmas",
+  "formato": "int",
+  "texto": "5"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.B1_palabras_clave_tabla_fija.proporcion_revision_humana",
+  "formato": "pct1",
+  "texto": "0.0 %"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.B1_palabras_clave_tabla_fija.subestimacion",
+  "formato": "pct1",
+  "texto": "41.3 %"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.A1_reglas_con_palabras_clave.exactitud_prioridad",
+  "formato": "dec3",
+  "texto": "0.603"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.A1_reglas_con_palabras_clave.recall_criticos",
+  "formato": "dec3",
+  "texto": "0.333"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.A1_reglas_con_palabras_clave.falsos_negativos_criticos",
+  "formato": "int",
+  "texto": "10"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.A1_reglas_con_palabras_clave.fn_criticos_sin_revision",
+  "formato": "int",
+  "texto": "10"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.A1_reglas_con_palabras_clave.falsas_alarmas",
+  "formato": "int",
+  "texto": "3"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.A1_reglas_con_palabras_clave.proporcion_revision_humana",
+  "formato": "pct1",
+  "texto": "14.3 %"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.A1_reglas_con_palabras_clave.subestimacion",
+  "formato": "pct1",
+  "texto": "22.2 %"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.A2_reglas_con_categoria_real.exactitud_prioridad",
+  "formato": "dec3",
+  "texto": "0.619"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.A2_reglas_con_categoria_real.recall_criticos",
+  "formato": "dec3",
+  "texto": "0.400"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.A2_reglas_con_categoria_real.falsos_negativos_criticos",
+  "formato": "int",
+  "texto": "9"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.A2_reglas_con_categoria_real.fn_criticos_sin_revision",
+  "formato": "int",
+  "texto": "9"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.A2_reglas_con_categoria_real.falsas_alarmas",
+  "formato": "int",
+  "texto": "3"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.A2_reglas_con_categoria_real.proporcion_revision_humana",
+  "formato": "pct1",
+  "texto": "14.3 %"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.A2_reglas_con_categoria_real.subestimacion",
+  "formato": "pct1",
+  "texto": "20.6 %"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.PROTOTIPO_NB_mas_reglas.exactitud_prioridad",
+  "formato": "dec3",
+  "texto": "0.587"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.PROTOTIPO_NB_mas_reglas.recall_criticos",
+  "formato": "dec3",
+  "texto": "0.333"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.PROTOTIPO_NB_mas_reglas.falsos_negativos_criticos",
+  "formato": "int",
+  "texto": "10"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.PROTOTIPO_NB_mas_reglas.fn_criticos_sin_revision",
+  "formato": "int",
+  "texto": "10"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.PROTOTIPO_NB_mas_reglas.falsas_alarmas",
+  "formato": "int",
+  "texto": "4"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.PROTOTIPO_NB_mas_reglas.proporcion_revision_humana",
+  "formato": "pct1",
+  "texto": "14.3 %"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.PROTOTIPO_NB_mas_reglas.subestimacion",
+  "formato": "pct1",
+  "texto": "22.2 %"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.PROTOTIPO_tras_confirmacion_R5.exactitud_prioridad",
+  "formato": "dec3",
+  "texto": "0.683"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.PROTOTIPO_tras_confirmacion_R5.recall_criticos",
+  "formato": "dec3",
+  "texto": "0.333"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.PROTOTIPO_tras_confirmacion_R5.falsos_negativos_criticos",
+  "formato": "int",
+  "texto": "10"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.PROTOTIPO_tras_confirmacion_R5.fn_criticos_sin_revision",
+  "formato": "int",
+  "texto": "10"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.PROTOTIPO_tras_confirmacion_R5.falsas_alarmas",
+  "formato": "int",
+  "texto": "4"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.PROTOTIPO_tras_confirmacion_R5.proporcion_revision_humana",
+  "formato": "pct1",
+  "texto": "14.3 %"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.PROTOTIPO_tras_confirmacion_R5.subestimacion",
+  "formato": "pct1",
+  "texto": "22.2 %"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.PROTOTIPO_NB_mas_reglas.n",
+  "formato": "int",
+  "texto": "63"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.PROTOTIPO_NB_mas_reglas.n_criticos",
+  "formato": "int",
+  "texto": "15"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.PROTOTIPO_NB_mas_reglas.recall_criticos",
+  "formato": "dec3",
+  "texto": "1.000"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.PROTOTIPO_NB_mas_reglas.falsos_negativos_criticos",
+  "formato": "int",
+  "texto": "0"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.PROTOTIPO_NB_mas_reglas.falsas_alarmas",
+  "formato": "int",
+  "texto": "1"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.PROTOTIPO_NB_mas_reglas.proporcion_revision_humana",
+  "formato": "pct1",
+  "texto": "27.0 %"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.B1_palabras_clave_tabla_fija.recall_criticos",
+  "formato": "dec3",
+  "texto": "0.226"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.PROTOTIPO_NB_mas_reglas.exactitud_prioridad",
+  "formato": "dec3",
+  "texto": "0.807"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.PROTOTIPO_tras_confirmacion_R5.exactitud_prioridad",
+  "formato": "dec3",
+  "texto": "0.876"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.PROTOTIPO_NB_mas_reglas.recall_criticos",
+  "formato": "dec3",
+  "texto": "0.333"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.PROTOTIPO_NB_mas_reglas.falsos_negativos_criticos",
+  "formato": "int",
+  "texto": "10"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.PROTOTIPO_NB_mas_reglas.n_criticos",
+  "formato": "int",
+  "texto": "15"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.PROTOTIPO_NB_mas_reglas.fn_criticos_sin_revision",
+  "formato": "int",
+  "texto": "10"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.A2_reglas_con_categoria_real.recall_criticos",
+  "formato": "dec3",
+  "texto": "0.400"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "duplicados_R4_prueba.duplicados_reales",
+  "formato": "int",
+  "texto": "25"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "duplicados_R4_prueba.vinculados_correctamente",
+  "formato": "int",
+  "texto": "20"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "duplicados_R4_prueba.recall_duplicados",
+  "formato": "dec3",
+  "texto": "0.800"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "duplicados_R4_prueba.vinculaciones_totales",
+  "formato": "int",
+  "texto": "38"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "duplicados_R4_prueba.vinculaciones_incorrectas",
+  "formato": "int",
+  "texto": "17"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "duplicados_R4_prueba.precision_vinculacion",
+  "formato": "dec3",
+  "texto": "0.526"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.prueba.PROTOTIPO_NB_mas_reglas.proporcion_revision_humana",
+  "formato": "pct1",
+  "texto": "27.0 %"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.PROTOTIPO_NB_mas_reglas.falsos_negativos_criticos",
+  "formato": "int",
+  "texto": "10"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.PROTOTIPO_NB_mas_reglas.n_criticos",
+  "formato": "int",
+  "texto": "15"
+ },
+ {
+  "fuente": "pruebas_resultados.json",
+  "ruta": "P03.obtenido.categoria",
+  "formato": "raw",
+  "texto": "SANITARIO"
+ },
+ {
+  "fuente": "pruebas_resultados.json",
+  "ruta": "P03.obtenido.confianza",
+  "formato": "dec2",
+  "texto": "0.42"
+ },
+ {
+  "fuente": "decisiones_prueba.csv",
+  "ruta": "S0917.categoria_pred",
+  "formato": "raw",
+  "texto": "ELECTRICO"
+ },
+ {
+  "fuente": "decisiones_prueba.csv",
+  "ruta": "S0917.confianza",
+  "formato": "dec2",
+  "texto": "0.99"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "umbral.valor",
+  "formato": "dec2",
+  "texto": "0.20"
+ },
+ {
+  "fuente": "decisiones_externos.csv",
+  "ruta": "X10.categoria_pred",
+  "formato": "raw",
+  "texto": "SANITARIO"
+ },
+ {
+  "fuente": "decisiones_externos.csv",
+  "ruta": "X10.confianza",
+  "formato": "dec2",
+  "texto": "0.96"
+ },
+ {
+  "fuente": "decisiones_externos.csv",
+  "ruta": "X25.categoria_pred",
+  "formato": "raw",
+  "texto": "SANITARIO"
+ },
+ {
+  "fuente": "decisiones_externos.csv",
+  "ruta": "X25.confianza",
+  "formato": "dec2",
+  "texto": "1.00"
+ },
+ {
+  "fuente": "decisiones_externos.csv",
+  "ruta": "X12.prioridad_pred",
+  "formato": "raw",
+  "texto": "Media"
+ },
+ {
+  "fuente": "decisiones_externos.csv",
+  "ruta": "X33.prioridad_pred",
+  "formato": "raw",
+  "texto": "Inmediata"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "duplicados_R4_prueba.precision_vinculacion",
+  "formato": "dec3",
+  "texto": "0.526"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.PROTOTIPO_NB_mas_reglas.falsos_negativos_criticos",
+  "formato": "int",
+  "texto": "10"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.PROTOTIPO_NB_mas_reglas.n_criticos",
+  "formato": "int",
+  "texto": "15"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.PROTOTIPO_NB_mas_reglas.recall_criticos",
+  "formato": "dec3",
+  "texto": "0.333"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "umbral.valor",
+  "formato": "dec2",
+  "texto": "0.20"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.externos.naive_bayes.f1_macro",
+  "formato": "dec3",
+  "texto": "0.714"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.externos.palabras_clave.f1_macro",
+  "formato": "dec3",
+  "texto": "0.830"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "duplicados_R4_prueba.precision_vinculacion",
+  "formato": "dec3",
+  "texto": "0.526"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.prueba.naive_bayes.f1_macro",
+  "formato": "dec3",
+  "texto": "0.965"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "clasificador.externos.naive_bayes.f1_macro",
+  "formato": "dec3",
+  "texto": "0.714"
+ },
+ {
+  "fuente": "metricas.json",
+  "ruta": "prioridad.externos.PROTOTIPO_NB_mas_reglas.recall_criticos",
+  "formato": "dec3",
+  "texto": "0.333"
+ }
+]

@@ -1,0 +1,380 @@
+{
+  "sha256_especificacion": "c13987850e583a86fd7734d5ba20f5bd464abb1d8f7f4ced894c21848d876084",
+  "pruebas": [
+    {
+      "id": "P01",
+      "regla": "R1",
+      "descripcion": "Agua cerca de contactos eléctricos",
+      "texto": "En el Laboratorio de cómputo 2 está escurriendo agua por la pared justo donde están los contactos de las computadoras",
+      "esperado": {
+        "categoria": [
+          "HUMEDAD"
+        ],
+        "prioridad": "Inmediata",
+        "escalamiento": true,
+        "revision_humana": true,
+        "reglas_incluye": [
+          "R1"
+        ]
+      },
+      "obtenido": {
+        "categoria": "HUMEDAD",
+        "confianza": 0.987,
+        "prioridad": "Inmediata",
+        "escalamiento": true,
+        "revision_humana": true,
+        "reglas": [
+          "R1"
+        ],
+        "acciones": [
+          "crear_caso",
+          "alertar_area_competente"
+        ]
+      },
+      "correcto": true,
+      "fallas": []
+    },
+    {
+      "id": "P02",
+      "regla": "R2",
+      "descripcion": "Desprendimiento de plafón",
+      "texto": "Se cayó un pedazo del plafón en el pasillo del primer piso y quedó otro trozo colgando",
+      "esperado": {
+        "categoria": [
+          "MUROS"
+        ],
+        "prioridad": "Inmediata",
+        "escalamiento": true,
+        "revision_humana": true,
+        "reglas_incluye": [
+          "R2"
+        ],
+        "acciones_incluye": [
+          "solicitar_inspeccion_especializada"
+        ]
+      },
+      "obtenido": {
+        "categoria": "MUROS",
+        "confianza": 1.0,
+        "prioridad": "Inmediata",
+        "escalamiento": true,
+        "revision_humana": true,
+        "reglas": [
+          "R2"
+        ],
+        "acciones": [
+          "crear_caso",
+          "alertar_area_competente",
+          "solicitar_inspeccion_especializada"
+        ]
+      },
+      "correcto": true,
+      "fallas": []
+    },
+    {
+      "id": "P03",
+      "regla": "R3",
+      "descripcion": "Texto vago con foto borrosa",
+      "texto": "está dañado, por favor revisen",
+      "esperado": {
+        "revision_humana": true,
+        "reglas_incluye": [
+          "R3"
+        ],
+        "acciones_incluye": [
+          "solicitar_nueva_foto"
+        ]
+      },
+      "obtenido": {
+        "categoria": "SANITARIO",
+        "confianza": 0.417,
+        "prioridad": "Media",
+        "escalamiento": false,
+        "revision_humana": false,
+        "reglas": [
+          "R3"
+        ],
+        "acciones": [
+          "crear_caso",
+          "solicitar_nueva_foto"
+        ]
+      },
+      "correcto": false,
+      "fallas": [
+        "revision_humana"
+      ]
+    },
+    {
+      "id": "P04",
+      "regla": "R4",
+      "descripcion": "Segundo reporte del mismo activo dentro de la ventana",
+      "texto": "sigue sin prender la luminaria del aula 204, ya la habían reportado",
+      "esperado": {
+        "segundo_vinculado": true
+      },
+      "obtenido": {
+        "categoria": "ELECTRICO",
+        "confianza": 1.0,
+        "prioridad": "Media",
+        "escalamiento": false,
+        "revision_humana": false,
+        "reglas": [],
+        "acciones": [
+          "crear_caso"
+        ],
+        "segundo_vinculado": true
+      },
+      "correcto": true,
+      "fallas": []
+    },
+    {
+      "id": "P05",
+      "regla": "R5",
+      "descripcion": "Problema estético confirmado por un responsable",
+      "texto": "La pintura del muro del pasillo está descarapelada",
+      "esperado": {
+        "categoria": [
+          "MUROS"
+        ],
+        "prioridad": "Media",
+        "escalamiento": false,
+        "revision_humana": false,
+        "acciones_incluye": [
+          "confirmar_si_es_solo_estetico"
+        ],
+        "prioridad_tras_retroalimentacion": "Baja"
+      },
+      "obtenido": {
+        "categoria": "MUROS",
+        "confianza": 1.0,
+        "prioridad": "Media",
+        "escalamiento": false,
+        "revision_humana": false,
+        "reglas": [],
+        "acciones": [
+          "crear_caso",
+          "confirmar_si_es_solo_estetico"
+        ],
+        "prioridad_tras_retroalimentacion": "Baja",
+        "panel_dias_abierto": 5,
+        "panel_aviso_antiguedad": false
+      },
+      "correcto": true,
+      "fallas": []
+    },
+    {
+      "id": "P06",
+      "regla": "R6",
+      "descripcion": "Caso validado que sigue abierto",
+      "texto": "La chapa de la puerta del Aula 305 no cierra",
+      "esperado": {
+        "panel_dias_abierto": 40,
+        "panel_aviso_antiguedad": true
+      },
+      "obtenido": {
+        "categoria": "PUERTAS",
+        "confianza": 1.0,
+        "prioridad": "Media",
+        "escalamiento": false,
+        "revision_humana": false,
+        "reglas": [],
+        "acciones": [
+          "crear_caso"
+        ],
+        "prioridad_tras_retroalimentacion": "Media",
+        "panel_dias_abierto": 40,
+        "panel_aviso_antiguedad": true
+      },
+      "correcto": true,
+      "fallas": []
+    },
+    {
+      "id": "P07",
+      "regla": "R7",
+      "descripcion": "Reporte sin zona",
+      "texto": "el contacto de la mesa tres no tiene corriente",
+      "esperado": {
+        "categoria": [
+          "ELECTRICO"
+        ],
+        "prioridad": "Media",
+        "revision_humana": true,
+        "reglas_incluye": [
+          "R7"
+        ],
+        "acciones_incluye": [
+          "solicitar_zona"
+        ]
+      },
+      "obtenido": {
+        "categoria": "ELECTRICO",
+        "confianza": 1.0,
+        "prioridad": "Media",
+        "escalamiento": false,
+        "revision_humana": true,
+        "reglas": [
+          "R7"
+        ],
+        "acciones": [
+          "crear_caso",
+          "solicitar_zona"
+        ]
+      },
+      "correcto": true,
+      "fallas": []
+    },
+    {
+      "id": "P08",
+      "regla": "R1 (negación)",
+      "descripcion": "Humedad con mención negada de elementos eléctricos",
+      "texto": "Hay una mancha de humedad en la pared del aula 203, no hay contactos ni cables cerca",
+      "esperado": {
+        "categoria": [
+          "HUMEDAD"
+        ],
+        "prioridad": "Media",
+        "escalamiento": false,
+        "reglas_excluye": [
+          "R1"
+        ]
+      },
+      "obtenido": {
+        "categoria": "HUMEDAD",
+        "confianza": 1.0,
+        "prioridad": "Media",
+        "escalamiento": false,
+        "revision_humana": false,
+        "reglas": [],
+        "acciones": [
+          "crear_caso"
+        ]
+      },
+      "correcto": true,
+      "fallas": []
+    },
+    {
+      "id": "P09",
+      "regla": "R9",
+      "descripcion": "Activo con dos incidencias en los últimos 90 días",
+      "texto": "La chapa de la puerta del aula 101 no cierra",
+      "esperado": {
+        "categoria": [
+          "PUERTAS"
+        ],
+        "prioridad": "Alta",
+        "reglas_incluye": [
+          "R9"
+        ]
+      },
+      "obtenido": {
+        "categoria": "PUERTAS",
+        "confianza": 1.0,
+        "prioridad": "Alta",
+        "escalamiento": false,
+        "revision_humana": false,
+        "reglas": [
+          "R9"
+        ],
+        "acciones": [
+          "crear_caso"
+        ]
+      },
+      "correcto": true,
+      "fallas": []
+    },
+    {
+      "id": "P10",
+      "regla": "R8",
+      "descripcion": "Categoría declarada distinta de la sugerida",
+      "texto": "La lámpara del pasillo parpadea todo el tiempo",
+      "esperado": {
+        "categoria": [
+          "ELECTRICO"
+        ],
+        "revision_humana": true,
+        "reglas_incluye": [
+          "R8"
+        ]
+      },
+      "obtenido": {
+        "categoria": "ELECTRICO",
+        "confianza": 1.0,
+        "prioridad": "Media",
+        "escalamiento": false,
+        "revision_humana": true,
+        "reglas": [
+          "R8"
+        ],
+        "acciones": [
+          "crear_caso"
+        ]
+      },
+      "correcto": true,
+      "fallas": []
+    },
+    {
+      "id": "P11",
+      "regla": "R11",
+      "descripcion": "Riesgo eléctrico directo",
+      "texto": "el apagador del salón echa chispas cuando lo prendes",
+      "esperado": {
+        "categoria": [
+          "ELECTRICO"
+        ],
+        "prioridad": "Inmediata",
+        "escalamiento": true,
+        "reglas_incluye": [
+          "R11"
+        ]
+      },
+      "obtenido": {
+        "categoria": "ELECTRICO",
+        "confianza": 1.0,
+        "prioridad": "Inmediata",
+        "escalamiento": true,
+        "revision_humana": true,
+        "reglas": [
+          "R11"
+        ],
+        "acciones": [
+          "crear_caso",
+          "alertar_area_competente"
+        ]
+      },
+      "correcto": true,
+      "fallas": []
+    },
+    {
+      "id": "P12",
+      "regla": "R10",
+      "descripcion": "Riesgo de resbalón en escaleras",
+      "texto": "Hay aceite tirado en las escaleras y la gente se resbala",
+      "esperado": {
+        "categoria": [
+          "PISOS"
+        ],
+        "prioridad": "Alta",
+        "reglas_incluye": [
+          "R10"
+        ]
+      },
+      "obtenido": {
+        "categoria": "PISOS",
+        "confianza": 0.994,
+        "prioridad": "Alta",
+        "escalamiento": false,
+        "revision_humana": false,
+        "reglas": [
+          "R10"
+        ],
+        "acciones": [
+          "crear_caso"
+        ]
+      },
+      "correcto": true,
+      "fallas": []
+    }
+  ],
+  "aprobadas": 11,
+  "total": 12
+}

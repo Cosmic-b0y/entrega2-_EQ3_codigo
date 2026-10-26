@@ -1,0 +1,45 @@
+------------------------------------------------------------------------------
+Reporte: Se está filtrando agua por el plafón justo arriba del tablero eléctrico
+  Zona: Laboratorio de cómputo 1 | Foto: legible
+  INTERPRETAR  categoría sugerida: HUMEDAD (confianza 1.00)
+               alternativas: [('HUMEDAD', 0.997), ('SANITARIO', 0.003), ('ELECTRICO', 0.0)]
+               palabras que más pesaron: [('agua', 4.63), ('plafon', 3.76), ('arriba', 2.93)]
+               señales en el texto: ['agua', 'electrico']
+  DECIDIR      PRIORIDAD PRELIMINAR: Inmediata | escalamiento: sí | revisión humana: sí
+               reglas: ['R1']
+               motivos: ['agua o humedad cerca de un elemento eléctrico']
+               revisión por: ['señal de riesgo que exige valoración competente']
+  ACTUAR       C0001  acciones: ['crear_caso', 'alertar_area_competente']
+  Aviso: sugerencia preliminar; la decisión corresponde al personal responsable.
+------------------------------------------------------------------------------
+Reporte: La pintura de la pared está descarapelada
+  Zona: Aula 203 | Foto: legible
+  INTERPRETAR  categoría sugerida: MUROS (confianza 1.00)
+               alternativas: [('MUROS', 1.0), ('HUMEDAD', 0.0), ('MOBILIARIO', 0.0)]
+               palabras que más pesaron: [('descarapelada', 5.39), ('pintura pared', 4.88), ('pared descarapelada', 4.19)]
+               señales en el texto: ['estetico']
+  DECIDIR      PRIORIDAD PRELIMINAR: Media | escalamiento: no | revisión humana: no
+               reglas: ['ninguna (prioridad base)']
+               motivos: ['sin señales de riesgo detectadas: prioridad base']
+  ACTUAR       C0002  acciones: ['crear_caso', 'confirmar_si_es_solo_estetico']
+  Aviso: sugerencia preliminar; la decisión corresponde al personal responsable.
+------------------------------------------------------------------------------
+Reporte: la chapa de la puerta no cierra
+  Zona: (sin zona) | Foto: borrosa
+  INTERPRETAR  categoría sugerida: PUERTAS (confianza 1.00)
+               alternativas: [('PUERTAS', 1.0), ('MOBILIARIO', 0.0), ('HUMEDAD', 0.0)]
+               palabras que más pesaron: [('cierra', 6.28), ('no cierra', 6.28), ('puerta', 4.75)]
+               señales en el texto: []
+  DECIDIR      PRIORIDAD PRELIMINAR: Media | escalamiento: no | revisión humana: sí
+               reglas: ['R3', 'R7']
+               motivos: ['sin señales de riesgo detectadas: prioridad base']
+               revisión por: ['falta la zona del reporte']
+  ACTUAR       C0003  acciones: ['crear_caso', 'solicitar_nueva_foto', 'solicitar_zona']
+  Aviso: sugerencia preliminar; la decisión corresponde al personal responsable.
+------------------------------------------------------------------------------
+RETROALIMENTAR  C0002 confirmado como estético -> prioridad Baja (R5)
+PANEL (R6)
+ caso                     zona categoria prioridad             estado  dias_abierto  aviso_antiguedad  reportes_vinculados
+C0001 Laboratorio de cómputo 1   HUMEDAD Inmediata pendiente_revision             0             False                    1
+C0003                            PUERTAS     Media pendiente_revision             0             False                    1
+C0002                 Aula 203     MUROS      Baja           validado             0             False                    1

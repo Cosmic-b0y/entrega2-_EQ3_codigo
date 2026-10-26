@@ -1,0 +1,12 @@
+{
+  "semilla": 2026,
+  "n_reportes": 1400,
+  "n_historial": 640,
+  "plantillas_prueba": [
+    "T03",
+    "T05",
+    "T10",
+    "T13"
+  ],
+  "nota": "Datos SIMULADOS. No corresponden a reportes reales de la UNACH ni de ETDA."
+}

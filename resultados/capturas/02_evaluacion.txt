@@ -1,0 +1,36 @@
+$ python3 evaluar.py
+{
+ "umbral": {
+  "criterio": "menor umbral con error <= 0.10 entre los casos aceptados (validación agrupada en entrenamiento)",
+  "valor": 0.2,
+  "cobertura_validacion": 1.0,
+  "error_aceptados_validacion": 0.02376425855513308,
+  "exactitud_oof": 0.9762357414448669
+ },
+ "clasificador": {
+  "prueba": {
+   "palabras_clave": 0.8468047988955841,
+   "naive_bayes": 0.9651805606284242,
+   "regresion_logistica": 0.9622936279734502,
+   "no_clasificados_palabras_clave": 28
+  },
+  "externos": {
+   "palabras_clave": 0.8295551087567894,
+   "naive_bayes": 0.7137525185512802,
+   "regresion_logistica": 0.7928697794907437,
+   "no_clasificados_palabras_clave": 2
+  },
+  "aleatoria": {
+   "palabras_clave": 0.839765305672029,
+   "naive_bayes": 0.9768831575183266,
+   "regresion_logistica": 0.9797658639989769
+  }
+ },
+ "pruebas": {
+  "aprobadas": 11,
+  "total": 12,
+  "sha256_especificacion": "c13987850e583a86fd7734d5ba20f5bd464abb1d8f7f4ced894c21848d876084"
+ }
+}
+
+[2026-10-25 22:48:55 · 5.2 s · código 0]

@@ -1,0 +1,542 @@
+{
+ "descripcion": "Casos SIMULADOS redactados fuera del generador, con vocabulario distinto (regionalismos, diminutivos, descripciones indirectas). Se redactaron con apoyo de IA generativa (Claude) después de congelar el lexicón y el protocolo, y no se usaron para ajustar ningún parámetro. La categoría y las señales de referencia se anotaron con cada caso; la prioridad de referencia se calcula con la política del equipo. No son reportes reales; el equipo debe revisar las anotaciones.",
+ "casos": [
+  {
+   "id": "X01",
+   "texto": "Cada que llueve se mete el agua por el marco de la ventana y baja por la pared",
+   "zona": "Aula 203",
+   "categoria_ref": "HUMEDAD",
+   "senales_ref": [
+    "agua"
+   ]
+  },
+  {
+   "id": "X02",
+   "texto": "El techo del aula está todo chorreado y huele a encerrado, como a moho",
+   "zona": "Aula 101",
+   "categoria_ref": "HUMEDAD",
+   "senales_ref": [
+    "agua"
+   ]
+  },
+  {
+   "id": "X03",
+   "texto": "Hay salitre en la parte de abajo de la pared, se está haciendo polvo el aplanado",
+   "zona": "Biblioteca",
+   "categoria_ref": "HUMEDAD",
+   "senales_ref": [
+    "agua"
+   ]
+  },
+  {
+   "id": "X04",
+   "texto": "Se está trasminando la humedad del jardín hacia la pared de la biblioteca",
+   "zona": "Biblioteca",
+   "categoria_ref": "HUMEDAD",
+   "senales_ref": [
+    "agua"
+   ]
+  },
+  {
+   "id": "X05",
+   "texto": "En la sala de maestros cae agüita del plafón justo encima del multicontacto donde cargan las laptops",
+   "zona": "Sala de maestros",
+   "categoria_ref": "HUMEDAD",
+   "senales_ref": [
+    "agua",
+    "electrico"
+   ]
+  },
+  {
+   "id": "X06",
+   "texto": "Quedó una aureola café en el techo de cuando hubo goteras el año pasado, ya no cae nada",
+   "zona": "Aula 204",
+   "categoria_ref": "HUMEDAD",
+   "senales_ref": [
+    "estetico"
+   ]
+  },
+  {
+   "id": "X07",
+   "texto": "Después del aguacero se hizo un lago en la entrada del edificio B y la gente se está patinando",
+   "zona": "Entrada principal",
+   "categoria_ref": "HUMEDAD",
+   "senales_ref": [
+    "agua",
+    "circulacion"
+   ]
+  },
+  {
+   "id": "X08",
+   "texto": "La pared del auditorio tiene manchas verdes de hongo y se siente mojada",
+   "zona": "Auditorio",
+   "categoria_ref": "HUMEDAD",
+   "senales_ref": [
+    "agua"
+   ]
+  },
+  {
+   "id": "X09",
+   "texto": "Por la junta del techo se cuela el agua y cae directo sobre el proyector",
+   "zona": "Aula 305",
+   "categoria_ref": "HUMEDAD",
+   "senales_ref": [
+    "agua",
+    "electrico"
+   ]
+  },
+  {
+   "id": "X10",
+   "texto": "Se botó el foco del baño de hombres, está oscuro",
+   "zona": "Sanitarios hombres PB",
+   "categoria_ref": "ELECTRICO",
+   "senales_ref": [
+    "electrico"
+   ]
+  },
+  {
+   "id": "X11",
+   "texto": "El balastro de la lámpara tronó y ahora nomás parpadea",
+   "zona": "Aula 102",
+   "categoria_ref": "ELECTRICO",
+   "senales_ref": [
+    "electrico"
+   ]
+  },
+  {
+   "id": "X12",
+   "texto": "El apagador del aula 204 está achicharrado y cuando lo prendes saca chispitas",
+   "zona": "Aula 204",
+   "categoria_ref": "ELECTRICO",
+   "senales_ref": [
+    "electrico",
+    "riesgo_electrico"
+   ]
+  },
+  {
+   "id": "X13",
+   "texto": "Los contactos de la pared de la izquierda no dan corriente, no podemos cargar nada",
+   "zona": "Laboratorio de cómputo 1",
+   "categoria_ref": "ELECTRICO",
+   "senales_ref": [
+    "electrico"
+   ]
+  },
+  {
+   "id": "X14",
+   "texto": "Hay un cable colgando del techo pelado, sin cinta, a la altura de la cabeza",
+   "zona": "Pasillo primer piso",
+   "categoria_ref": "ELECTRICO",
+   "senales_ref": [
+    "electrico",
+    "riesgo_electrico"
+   ]
+  },
+  {
+   "id": "X15",
+   "texto": "Desde ayer no hay luz en todo el laboratorio de redes",
+   "zona": "Laboratorio de redes",
+   "categoria_ref": "ELECTRICO",
+   "senales_ref": [
+    "electrico",
+    "sin_servicio"
+   ]
+  },
+  {
+   "id": "X16",
+   "texto": "La clavija del cañón está quemada y huele a plástico",
+   "zona": "Aula 101",
+   "categoria_ref": "ELECTRICO",
+   "senales_ref": [
+    "electrico",
+    "riesgo_electrico"
+   ]
+  },
+  {
+   "id": "X17",
+   "texto": "Las lámparas del pasillo se quedan prendidas todo el día, no apagan",
+   "zona": "Pasillo planta baja",
+   "categoria_ref": "ELECTRICO",
+   "senales_ref": [
+    "electrico"
+   ]
+  },
+  {
+   "id": "X18",
+   "texto": "El tablero de la planta baja está abierto y se le ven los fusibles",
+   "zona": "Pasillo planta baja",
+   "categoria_ref": "ELECTRICO",
+   "senales_ref": [
+    "electrico",
+    "riesgo_electrico"
+   ]
+  },
+  {
+   "id": "X19",
+   "texto": "No se puede poner seguro a la puerta del centro de cómputo, la chapa gira en falso",
+   "zona": "Laboratorio de cómputo 2",
+   "categoria_ref": "PUERTAS",
+   "senales_ref": []
+  },
+  {
+   "id": "X20",
+   "texto": "La puerta del aula 102 se atora con el marco y hay que empujarla con el hombro",
+   "zona": "Aula 102",
+   "categoria_ref": "PUERTAS",
+   "senales_ref": []
+  },
+  {
+   "id": "X21",
+   "texto": "Se zafó la manija de la puerta de la dirección",
+   "zona": "Dirección",
+   "categoria_ref": "PUERTAS",
+   "senales_ref": []
+  },
+  {
+   "id": "X22",
+   "texto": "Un vidrio de la ventana del lab está estrellado, falta que se termine de romper",
+   "zona": "Laboratorio de cómputo 1",
+   "categoria_ref": "PUERTAS",
+   "senales_ref": []
+  },
+  {
+   "id": "X23",
+   "texto": "La ventana corrediza ya no corre, está trabada con polvo",
+   "zona": "Aula 305",
+   "categoria_ref": "PUERTAS",
+   "senales_ref": []
+  },
+  {
+   "id": "X24",
+   "texto": "La puerta de emergencia del auditorio la tienen amarrada con cadena y no se puede abrir",
+   "zona": "Auditorio",
+   "categoria_ref": "PUERTAS",
+   "senales_ref": [
+    "circulacion"
+   ]
+  },
+  {
+   "id": "X25",
+   "texto": "El cerrojo del baño de mujeres no sirve, no se puede cerrar",
+   "zona": "Sanitarios mujeres PB",
+   "categoria_ref": "PUERTAS",
+   "senales_ref": []
+  },
+  {
+   "id": "X26",
+   "texto": "La puerta principal rechina horrible y no regresa sola",
+   "zona": "Entrada principal",
+   "categoria_ref": "PUERTAS",
+   "senales_ref": []
+  },
+  {
+   "id": "X27",
+   "texto": "Le falta el tope a la puerta y golpea la pared cada que la abren",
+   "zona": "Aula 203",
+   "categoria_ref": "PUERTAS",
+   "senales_ref": []
+  },
+  {
+   "id": "X28",
+   "texto": "Hay mosaicos sueltos que suenan huecos al pisarlos en el pasillo",
+   "zona": "Pasillo primer piso",
+   "categoria_ref": "PISOS",
+   "senales_ref": []
+  },
+  {
+   "id": "X29",
+   "texto": "En la rampa de acceso falta un pedazo de concreto y se atoran las sillas de ruedas",
+   "zona": "Entrada principal",
+   "categoria_ref": "PISOS",
+   "senales_ref": [
+    "circulacion"
+   ]
+  },
+  {
+   "id": "X30",
+   "texto": "El piso de la cafetería está pegajoso y manchado",
+   "zona": "Cafetería",
+   "categoria_ref": "PISOS",
+   "senales_ref": [
+    "estetico"
+   ]
+  },
+  {
+   "id": "X31",
+   "texto": "Se levantó una loseta en la entrada y ya varios se han ido de boca",
+   "zona": "Entrada principal",
+   "categoria_ref": "PISOS",
+   "senales_ref": [
+    "circulacion"
+   ]
+  },
+  {
+   "id": "X32",
+   "texto": "El piso del laboratorio tiene la loseta quebrada en una esquina, debajo de una mesa",
+   "zona": "Laboratorio de redes",
+   "categoria_ref": "PISOS",
+   "senales_ref": []
+  },
+  {
+   "id": "X33",
+   "texto": "Los escalones de la entrada están muy lisos, ya se cayó una maestra",
+   "zona": "Entrada principal",
+   "categoria_ref": "PISOS",
+   "senales_ref": [
+    "circulacion"
+   ]
+  },
+  {
+   "id": "X34",
+   "texto": "Hay una coladera sin tapa en el pasillo del primer piso",
+   "zona": "Pasillo primer piso",
+   "categoria_ref": "PISOS",
+   "senales_ref": [
+    "circulacion"
+   ]
+  },
+  {
+   "id": "X35",
+   "texto": "El piso del aula está muy rayado por las bancas",
+   "zona": "Aula 204",
+   "categoria_ref": "PISOS",
+   "senales_ref": [
+    "estetico"
+   ]
+  },
+  {
+   "id": "X36",
+   "texto": "Se hundió un poco el piso junto a la jardinera y se hace un escalón",
+   "zona": "Explanada",
+   "categoria_ref": "PISOS",
+   "senales_ref": [
+    "circulacion",
+    "estructural"
+   ]
+  },
+  {
+   "id": "X37",
+   "texto": "La pintura de la fachada ya está toda deslavada",
+   "zona": "Entrada principal",
+   "categoria_ref": "MUROS",
+   "senales_ref": [
+    "estetico"
+   ]
+  },
+  {
+   "id": "X38",
+   "texto": "Le pintaron grafitis a la pared del baño",
+   "zona": "Sanitarios hombres PB",
+   "categoria_ref": "MUROS",
+   "senales_ref": [
+    "estetico"
+   ]
+  },
+  {
+   "id": "X39",
+   "texto": "Se ve una cuarteadura que atraviesa la pared del aula 203 de esquina a esquina",
+   "zona": "Aula 203",
+   "categoria_ref": "MUROS",
+   "senales_ref": [
+    "estructural"
+   ]
+  },
+  {
+   "id": "X40",
+   "texto": "Se está botando el aplanado del muro y caen pedacitos",
+   "zona": "Pasillo planta baja",
+   "categoria_ref": "MUROS",
+   "senales_ref": [
+    "desprendimiento"
+   ]
+  },
+  {
+   "id": "X41",
+   "texto": "Una placa del plafón está chueca, como que se va a zafar",
+   "zona": "Biblioteca",
+   "categoria_ref": "MUROS",
+   "senales_ref": [
+    "desprendimiento"
+   ]
+  },
+  {
+   "id": "X42",
+   "texto": "La pared tiene una rajadita delgada, como de cabello",
+   "zona": "Aula 101",
+   "categoria_ref": "MUROS",
+   "senales_ref": []
+  },
+  {
+   "id": "X43",
+   "texto": "Se descascaró la pintura del muro junto al pizarrón",
+   "zona": "Aula 102",
+   "categoria_ref": "MUROS",
+   "senales_ref": [
+    "estetico"
+   ]
+  },
+  {
+   "id": "X44",
+   "texto": "Al lado de la columna del edificio C se abrió una grieta que antes no estaba",
+   "zona": "Pasillo planta baja",
+   "categoria_ref": "MUROS",
+   "senales_ref": [
+    "estructural"
+   ]
+  },
+  {
+   "id": "X45",
+   "texto": "El muro del patio está pandeado, como panzón",
+   "zona": "Explanada",
+   "categoria_ref": "MUROS",
+   "senales_ref": [
+    "estructural"
+   ]
+  },
+  {
+   "id": "X46",
+   "texto": "El escusado del baño de hombres se queda corriendo el agua todo el día",
+   "zona": "Sanitarios hombres PB",
+   "categoria_ref": "SANITARIO",
+   "senales_ref": [
+    "agua"
+   ]
+  },
+  {
+   "id": "X47",
+   "texto": "No le jala al WC del fondo",
+   "zona": "Sanitarios primer piso",
+   "categoria_ref": "SANITARIO",
+   "senales_ref": []
+  },
+  {
+   "id": "X48",
+   "texto": "La llave del lavabo quedó abierta, no cierra, y se está desbordando al piso",
+   "zona": "Sanitarios mujeres PB",
+   "categoria_ref": "SANITARIO",
+   "senales_ref": [
+    "agua"
+   ]
+  },
+  {
+   "id": "X49",
+   "texto": "Hay olor a drenaje muy fuerte en los sanitarios del primer piso",
+   "zona": "Sanitarios primer piso",
+   "categoria_ref": "SANITARIO",
+   "senales_ref": []
+  },
+  {
+   "id": "X50",
+   "texto": "En el baño de mujeres no sale agua de ninguna llave",
+   "zona": "Sanitarios mujeres PB",
+   "categoria_ref": "SANITARIO",
+   "senales_ref": [
+    "sin_servicio"
+   ]
+  },
+  {
+   "id": "X51",
+   "texto": "El mingitorio está tapado y ya se está saliendo el agua",
+   "zona": "Sanitarios hombres PB",
+   "categoria_ref": "SANITARIO",
+   "senales_ref": [
+    "agua"
+   ]
+  },
+  {
+   "id": "X52",
+   "texto": "La tubería de abajo del lavabo está goteando y hay un contacto en la pared de abajo",
+   "zona": "Sanitarios primer piso",
+   "categoria_ref": "SANITARIO",
+   "senales_ref": [
+    "agua",
+    "electrico"
+   ]
+  },
+  {
+   "id": "X53",
+   "texto": "Se rompió la palanca del tanque del inodoro",
+   "zona": "Sanitarios mujeres PB",
+   "categoria_ref": "SANITARIO",
+   "senales_ref": []
+  },
+  {
+   "id": "X54",
+   "texto": "El bebedero escupe agua por los lados y moja todo el piso",
+   "zona": "Pasillo planta baja",
+   "categoria_ref": "SANITARIO",
+   "senales_ref": [
+    "agua"
+   ]
+  },
+  {
+   "id": "X55",
+   "texto": "Las butacas del auditorio tienen el respaldo zafado",
+   "zona": "Auditorio",
+   "categoria_ref": "MOBILIARIO",
+   "senales_ref": []
+  },
+  {
+   "id": "X56",
+   "texto": "El pintarrón se está despegando de la pared y se ladea",
+   "zona": "Aula 305",
+   "categoria_ref": "MOBILIARIO",
+   "senales_ref": [
+    "desprendimiento"
+   ]
+  },
+  {
+   "id": "X57",
+   "texto": "Una mesa de laboratorio está coja y se mueve cuando escribes",
+   "zona": "Laboratorio de cómputo 2",
+   "categoria_ref": "MOBILIARIO",
+   "senales_ref": []
+  },
+  {
+   "id": "X58",
+   "texto": "El librero empotrado de la biblioteca tiene una repisa vencida",
+   "zona": "Biblioteca",
+   "categoria_ref": "MOBILIARIO",
+   "senales_ref": []
+  },
+  {
+   "id": "X59",
+   "texto": "Los casilleros del pasillo no tienen puertas",
+   "zona": "Pasillo primer piso",
+   "categoria_ref": "MOBILIARIO",
+   "senales_ref": []
+  },
+  {
+   "id": "X60",
+   "texto": "El soporte del proyector está flojo y el proyector se mueve cuando cierran la puerta",
+   "zona": "Aula 203",
+   "categoria_ref": "MOBILIARIO",
+   "senales_ref": []
+  },
+  {
+   "id": "X61",
+   "texto": "Las bancas de concreto de la explanada están todas rayadas y pintadas",
+   "zona": "Explanada",
+   "categoria_ref": "MOBILIARIO",
+   "senales_ref": [
+    "estetico"
+   ]
+  },
+  {
+   "id": "X62",
+   "texto": "Una silla fija del auditorio está rota del asiento",
+   "zona": "Auditorio",
+   "categoria_ref": "MOBILIARIO",
+   "senales_ref": []
+  },
+  {
+   "id": "X63",
+   "texto": "El anaquel de la biblioteca está ladeado y los libros se le pueden venir encima a alguien",
+   "zona": "Biblioteca",
+   "categoria_ref": "MOBILIARIO",
+   "senales_ref": [
+    "desprendimiento"
+   ]
+  }
+ ]
+}

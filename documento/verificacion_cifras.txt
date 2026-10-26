@@ -1,0 +1,39 @@
+1. Reejecución con semilla 2026 reproduce metricas.json: SÍ
+2. Cifras registradas al construir el PDF: 327; recalculadas desde su fuente con discrepancias: 0
+3. Páginas del PDF: 21; cifras registradas ausentes del texto extraído: 0
+4. Números del PDF sin registro (requieren revisión manual): 35
+   [6] Justificación de la técnica de Inteligencia Artificial . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+   [8] Evidencias de funcionamiento . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+   [19] Riesgos, supervisión humana y uso responsable . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+   [19] Propuestas de mejora para la entrega final . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+   [19] Uso de inteligencia artificial generativa . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+   [21] Anexo A. Código y reproducción . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+   [8] Formato CSV UTF-8 (reportes e historial); JSON (casos externos y pruebas); texto libre en español.
+   [305] esta dañado, revisen (aula 305)   legible PISOS Media
+   [204] El apagador del aula 204 está achicharrado y cuando lo prendes saca chispitas ELECTRICO electrico, riesgo_elec
+   [1998] permite explicar qué palabras pesaron (McCallum y Nigam, 1998; Manning et al.,  ). La
+   [0.1] hiperparámetro α se eligió entre 0.05, 0.1, 0.3, 0.5, 1.0 y C entre 1.0, 2.0, 5.0, 10.0, 20.0 con validación
+   [0.3] hiperparámetro α se eligió entre 0.05, 0.1, 0.3, 0.5, 1.0 y C entre 1.0, 2.0, 5.0, 10.0, 20.0 con validación
+   [0.5] hiperparámetro α se eligió entre 0.05, 0.1, 0.3, 0.5, 1.0 y C entre 1.0, 2.0, 5.0, 10.0, 20.0 con validación
+   [1.0] hiperparámetro α se eligió entre 0.05, 0.1, 0.3, 0.5, 1.0 y C entre 1.0, 2.0, 5.0, 10.0, 20.0 con validación
+   [1.0] hiperparámetro α se eligió entre 0.05, 0.1, 0.3, 0.5, 1.0 y C entre 1.0, 2.0, 5.0, 10.0, 20.0 con validación
+   [2.0] hiperparámetro α se eligió entre 0.05, 0.1, 0.3, 0.5, 1.0 y C entre 1.0, 2.0, 5.0, 10.0, 20.0 con validación
+   [5.0] hiperparámetro α se eligió entre 0.05, 0.1, 0.3, 0.5, 1.0 y C entre 1.0, 2.0, 5.0, 10.0, 20.0 con validación
+   [20.0] hiperparámetro α se eligió entre 0.05, 0.1, 0.3, 0.5, 1.0 y C entre 1.0, 2.0, 5.0, 10.0, 20.0 con validación
+   [3.13] Las capturas siguientes corresponden a una ejecución real del código entregado (Python 3.13 en Linux),
+   [6] Captura 6. Notebook: métricas del clasificador por conjunto y modelo.
+   [8] Captura 8. Notebook: ciclo del agente con retroalimentación y panel.
+   [256] escribió en pruebas_definidas.json antes de ejecutar el prototipo; evaluar.py registra la huella SHA-256 del
+   [204] ( ) del aula 204, ya la habían prioridad: Media; reglas: ; vincula al caso abierto.
+   [305] ( ) 305 no cierra aviso antiguedad: True prioridad: Media; reglas: ; antigüedad y la resalta.
+   [203] (  (neg en la pared del aula 203, no prioridad: Media; prioridad: Media; falsa alarma  .
+   [101] ( ) 101 no cierra prioridad: Alta; reglas prioridad: Alta; reglas:   reincidencia.
+   [6] conocido del modelo (Niculescu-Mizil y Caruana,  ). La tabla 6 es un análisis exploratorio posterior: no se
+   [6] Tabla 6. Sensibilidad posterior del umbral en los casos externos. No se usó para ninguna decisión del prototip
+   [8] Tabla 8. Métricas de prioridad. “FN sin revisión” son casos críticos no detectados que además no fueron a revi
+   [100804] Patterns,  , 100804. https://  .100804
+   [1998] McCallum, A., & Nigam, K. (1998). A comparison of event models for naive Bayes text classification. En AAAI-98
+   [98] McCallum, A., & Nigam, K. (1998). A comparison of event models for naive Bayes text classification. En AAAI-98
+   [2910] Progress and challenges. Remote Sensing,  , 2910. https://
+   [256] Huellas SHA-256 de los insumos evaluados:
+   [256] Archivo SHA-256
